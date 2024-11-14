@@ -1,0 +1,22 @@
+.navbarContainer {
+    font-family: 'Poppins';
+}
+
+.pageTitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    user-select: none;
+}
+
+.navbarMenu button {
+    padding: 5px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    transition: 0.2s all ease-in-out;
+}
+
+.navbarMenu button:hover {
+    border: 2px solid rgb(168, 168, 168);
+    background-color: #f1f1f1;
+}
