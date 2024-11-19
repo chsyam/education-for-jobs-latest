@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@mui/material";
 import styles from "./../styles/Navbar.module.css";
 import { GraduationCap } from "lucide-react";
 import Link from "next/link";
@@ -13,12 +14,12 @@ export default function Navbar() {
                         <GraduationCap className="h-8 w-8" />
                         <span className={styles.pageTitle}>Education for Jobs</span>
                     </Link>
-                    <div className={`flex items-center space-x-4 ${styles.navbarMenu}`}>
+                    <div className={`flex items-center space-x-4`}>
                         <Link href="/blogs">
-                            <button variant="ghost">Blogs</button>
+                            <Button variant="outlined">Blogs</Button>
                         </Link>
                         <Link href="/about">
-                            <button variant="ghost">About</button>
+                            <Button variant="outlined">About</Button>
                         </Link>
                     </div>
                 </div>

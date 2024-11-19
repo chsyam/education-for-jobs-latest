@@ -1,0 +1,21 @@
+.blogsContainer {
+    padding: 2% 5% 2% 5%;
+}
+
+.blogs {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.blogsMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.sectionHead {
+    font-size: 2rem;
+}
