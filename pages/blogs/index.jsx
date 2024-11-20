@@ -76,7 +76,7 @@ export default function BlogsPage() {
                                     sx={{ width: 370, display: 'flex', justifyContent: 'space-between', flexDirection: 'column', padding: '10px', flexGrow: 1 }}
                                     key={index}
                                     onClick={() => {
-                                        window.location.href = `/blogs/${blog.blogId}`;
+                                        window.location.href = `/blogs/${blog.blogId}#comments`;
                                     }}
                                 >
                                     <CardContent>
@@ -105,15 +105,15 @@ export default function BlogsPage() {
                                             {blog.description}
                                         </Typography>
                                     </CardContent>
-                                    <CardActions sx={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-                                        <Button sx={{ gap: '10px', fontSize: '1.1rem' }}>
-                                            <Heart /> {blog.likes}
+                                    <CardActions sx={{ display: 'flex', justifyContent: 'left' }}>
+                                        <Button sx={{ fontSize: '18px', color: 'gray' }}>
+                                            <Heart size={18} /> <span className="mx-1">{blog.likes}</span>
                                         </Button>
-                                        <Button sx={{ gap: '10px', fontSize: '1.1rem' }}>
-                                            <MessageCircle /> {blog.comments}
+                                        <Button sx={{ fontSize: '18px', color: 'gray' }}>
+                                            <MessageCircle size={18} /> <span className="mx-1">{blog.comments}</span>
                                         </Button>
-                                        <Button sx={{ gap: '10px', fontSize: '1.1rem' }}>
-                                            <Share2 />
+                                        <Button sx={{ fontSize: '18px', color: 'gray' }}>
+                                            <Share2 size={18} />
                                         </Button>
                                     </CardActions>
                                 </Card>

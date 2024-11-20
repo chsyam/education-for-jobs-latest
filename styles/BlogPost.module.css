@@ -1,26 +1,47 @@
 .blogContainer {
-    padding: 2% 4% 2% 4%;
+    padding: 2% 15% 2% 15%;
 }
 
 .blogTitle {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 600;
     margin: 10px 0;
     padding: 10px 0;
+}
+
+.blogContent {
+    margin: 10px 0;
+    padding: 10px 0;
+    text-align: justify;
 }
 
 .blogMetadata {
     display: flex;
     justify-content: left;
     align-items: center;
-    gap: 20px;
-    /* border-top: 1px solid #d6d6d6;
-    border-bottom: 1px solid #d6d6d6; */
+    gap: 30px;
     margin: 5px 0;
-    padding: 5px 0;
+    color: rgb(85, 85, 85);
 }
 
-.blogContent {
-    margin: 10px 0;
-    padding: 10px 0;
+.blogMetadata div {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    font-size: 16px;
+    user-select: none;
+}
+
+.feedbackContainer {
+    margin: 5% 0;
+}
+
+.videoResources {
+    margin: 40px 0 20px 0;
+}
+
+.videoResources iframe {
+    width: 100%;
+    height: 350px;
 }

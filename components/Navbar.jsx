@@ -15,12 +15,6 @@ export default function Navbar() {
                         <span className={styles.pageTitle}>Education for Jobs</span>
                     </Link>
                     <div className={`flex items-center space-x-4`}>
-                        <Link href="/blogs">
-                            <Button variant="outlined">Blogs</Button>
-                        </Link>
-                        <Link href="/about">
-                            <Button variant="outlined">About</Button>
-                        </Link>
                     </div>
                 </div>
             </div>

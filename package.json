@@ -12,11 +12,19 @@
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^6.1.7",
+    "@syncfusion/ej2-react-richtexteditor": "^27.2.2",
+    "dompurify": "^3.2.1",
+    "draft-js": "^0.11.7",
+    "immutable": "^4.3.7",
+    "jodit": "^4.2.43",
+    "jodit-react": "^4.1.2",
     "lucide-react": "^0.456.0",
     "next": "15.0.3",
     "next-themes": "^0.4.3",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.3.1",
+    "react-draft-wysiwyg": "^1.15.0",
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
