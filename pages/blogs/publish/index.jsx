@@ -1,16 +1,5 @@
-// import TextEditor from "@/components/textEditor/TextEditor";
-
-// export default function PublishBlog() {
-//     return (
-//         <div>
-//             <TextEditor />
-//         </div>
-//     );
-// }
-
 import dynamic from 'next/dynamic';
 import React, { useState, useRef, useMemo } from 'react';
-// import JoditEditor from 'jodit-react';
 
 const JoditEditor = dynamic(() => import("jodit-react"), {
 	ssr: false
